@@ -1,22 +1,18 @@
-void ft_putchar(char ptr);
-void ft_putnbr(int ptr);
-void ft_putaddr(void *ptr);
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sadams <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/06/19 09:52:32 by sadams            #+#    #+#             */
+/*   Updated: 2020/06/19 15:21:10 by sadams           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+#include <unistd.h>
 
 void ft_ft(int *nbr)
 {
-int a;
-int *ptr;
-
-a = 42;
-ptr = &a;
-ft_putnbr(*ptr);
+	*nbr = 42;
 }
-
-int main(void)
-{
-
-ft_ft(42);
-ft_putnbr('\n');
-return (0);
-}
-~ 
+ 
