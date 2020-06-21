@@ -6,7 +6,7 @@
 /*   By: sadams <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 11:25:07 by sadams            #+#    #+#             */
-/*   Updated: 2020/06/21 13:05:02 by sadams           ###   ########.fr       */
+/*   Updated: 2020/06/21 13:05:28 by sadams           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void ft_ultimate_div_mod(int *a, int *b)
 {
 	int div;
 	int mod;
-aa
+
 	div = *a;
 	mod = *b;
 
