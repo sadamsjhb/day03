@@ -6,10 +6,25 @@
 /*   By: sadams <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 13:07:11 by sadams            #+#    #+#             */
-/*   Updated: 2020/06/21 14:49:38 by sadams           ###   ########.fr       */
+/*   Updated: 2020/06/22 15:27:27 by sadams           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
+void putchar(char c)
+{
+	write(1, &c, 1);
+}
 
+void ft_putstr(char *str)
+{
+	int i;
+	i = 0;
+
+	while(str[i] != '\0')
+	{
+		i++;
+	}
+	write(1, str, i);
+}
